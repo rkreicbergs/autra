@@ -1,0 +1,24 @@
+<JWrapper>
+  <BundleName>Autra</BundleName>
+
+  <App>
+    <Name>Autra</Name>
+    <LogoPNG>AuTra/AuTra_Logo.png</LogoPNG>
+    <MainClass>lv.autra.Main</MainClass>
+  </App>
+  <SplashPNG>AuTra/AuTra_Splash.png</SplashPNG>
+  <BundleLogoPNG>AuTra/AuTra_Logo.png</BundleLogoPNG>
+  
+  <SupportedLanguages>lv,en,ru</SupportedLanguages>  
+  <InstallType>CurrentUser</InstallType>  
+  <JvmOptions>
+    <JvmOption>-Xmx256m</JvmOption>
+  </JvmOptions>
+  
+  <Windows32JRE>jre1.8.0_25</Windows32JRE>
+  <Windows64JRE>jre1.8.0_25</Windows64JRE>
+  <SkipMacOS>true</SkipMacOS>
+  <SkipLinux>true</SkipLinux>
+
+  <File classpath='yes'>AuTra/AuTra.jar</File>  
+</JWrapper>

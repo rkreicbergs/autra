@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A9674D1-221E-4FB4-B01F-BE12602E9365}</ProjectGuid>
+    <RootNamespace>jdksmidi</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\advancedsequencer.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\driver.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\driverdump.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\driverwin32.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\edittrack.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\file.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\fileread.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\filereadmultitrack.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\fileshow.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\filewrite.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\filewritemultitrack.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\keysig.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\manager.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\matrix.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\midi.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\msg.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\multitrack.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\parser.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\process.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\queue.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\sequencer.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\showcontrol.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\showcontrolhandler.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\smpte.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\song.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\sysex.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\tempo.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\tick.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\track.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\utils.h" />
+    <ClInclude Include="..\..\..\..\ThirdParty\jdksmidi\include\jdksmidi\world.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_advancedsequencer.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_driver.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_driverdump.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_edittrack.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_file.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_fileread.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_filereadmultitrack.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_fileshow.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_filewrite.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_filewritemultitrack.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_keysig.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_manager.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_matrix.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_midi.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_msg.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_multitrack.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_parser.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_process.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_queue.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_sequencer.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_showcontrol.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_showcontrolhandler.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_smpte.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_sysex.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_tempo.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_tick.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_track.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\jdksmidi_utils.cpp" />
+    <ClCompile Include="..\..\..\..\ThirdParty\jdksmidi\src\win32\jdksmidi_driverwin32.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

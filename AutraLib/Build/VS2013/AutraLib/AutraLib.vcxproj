@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BEB71D98-60B7-4AB5-AC35-B531B1DCF7E4}</ProjectGuid>
+    <RootNamespace>AutraLib</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\ThirdParty\jdksmidi\include;</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Core\AutraLib.cpp" />
+    <ClCompile Include="..\..\..\src\Core\MidiEvent.cpp" />
+    <ClCompile Include="..\..\..\src\Core\MidiWriter.cpp" />
+    <ClCompile Include="..\..\..\src\Core\Rnd.cpp" />
+    <ClCompile Include="..\..\..\src\Data\ChordData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\ChordLevelData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\IntervalLevelData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\LevelTabData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\PitchLevelData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\PitchPhraseData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\RegisterData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\RhythmLevelData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\RhythmPatternData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\RhythmPhraseData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\ScaleData.cpp" />
+    <ClCompile Include="..\..\..\src\Data\ScaleLevelData.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\Chord.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\IntervalBatch.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\Phrase.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\PitchPhrase.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\PitchSet.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\Register.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\RhythmPattern.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\RhythmPhrase.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Common\Scale.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Game.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Level.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\AttentionLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\ChordLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\IntervalLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\MultichoiceLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\PitchLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\RhythmLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\ScaleLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Levels\TriggerLevel.cpp" />
+    <ClCompile Include="..\..\..\src\Game\Score.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Core\AutraLib.h" />
+    <ClInclude Include="..\..\..\src\Core\Check.h" />
+    <ClInclude Include="..\..\..\src\Core\MidiEvent.h" />
+    <ClInclude Include="..\..\..\src\Core\MidiWriter.h" />
+    <ClInclude Include="..\..\..\src\Core\Rnd.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\Chord.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\IntervalBatch.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\Phrase.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\PitchPhrase.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\PitchSet.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\Register.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\RhythmPattern.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\RhythmPhrase.h" />
+    <ClInclude Include="..\..\..\src\Game\Common\Scale.h" />
+    <ClInclude Include="..\..\..\src\Game\Game.h" />
+    <ClInclude Include="..\..\..\src\Game\Level.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\AttentionLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\ChordLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\IntervalLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\MultichoiceLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\PitchLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\RhythmLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\ScaleLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Levels\TriggerLevel.h" />
+    <ClInclude Include="..\..\..\src\Game\Score.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ThirdParty\jdksmidi\jdksmidi.vcxproj">
+      <Project>{4a9674d1-221e-4fb4-b01f-be12602e9365}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

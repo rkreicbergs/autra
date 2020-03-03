@@ -1,0 +1,195 @@
+Major Tetrachord	1	mažora tetrahords	0,2,4,5
+Minor Tetrachord	1	minora tetrahords	0,2,3,5
+Phrygian Tetrachord	1	frīģiskais tetrahords	0,1,3,5
+Lydian Tetrachord	1	līdiskais tetrahords	0,2,4,6
+Harmonic Tetrachord	1	harmoniskais tetrahords	0,1,4,5
+Major 	1	mažors	0,2,4,5,7,9,11,12
+Dorian	2	doriskā	0,2,3,5,7,9,10,12
+Phrygian  	3	frīgiskā	0,1,3,5,7,8,10,12
+Lydian   	4	līdiskā	0,2,4,6,7,9,11,12
+Mixolydian	5	miksolīdiskā	0,2,4,5,7,9,10,12
+Locrian	7	lokriskā	0,1,3,5,6,8,10,12
+Minor	1	minors	0,2,3,5,7,8,10,12
+Melodic Minor 	1	melodiskais minors	0,2,3,5,7,9,11,12
+Dorian #2	2	doriskā #2	0,1,3,5,7,9,10,12
+Lydian aug	3	līdiskā palielinātā	0,2,4,6,8,9,11,12
+Lydian Dominant	4	līdiskā dominante	0,2,4,6,7,9,10,12
+Hindu, Melodic Major	5	hindu, melodiskais mažors	0,2,4,5,7,8,10,12
+Locrian #2	6	lokriskā #2	0,2,3,5,6,8,10,12
+Super Locrian	7	superlokriskā	0,1,3,4,6,8,10,12
+Harmonic Major	1	harmoniskais mažors	0,2,4,5,7,8,11,12
+Dorian b5	2	doriskā b5	0,2,3,5,6,9,10,12
+Phrygian b4	3	frīģiskā b4	0,1,3,4,7,8,10,12
+Lydian b3	4	līdiskā b3	0,2,3,6,7,9,11,12
+Dominant b2	5	dominante b2	0,1,4,5,7,9,10,12
+Lydian aug #2	6	līdiskā palielinātā #2	0,3,4,6,8,9,11,12
+Locrian bb7	7	lokriskā bb7	0,1,3,5,6,8,9,12
+Hungarian Minor	1	2xpl minors, ungāru minors	0,2,3,6,7,8,11,12
+Oriental	2	orientālā	0,1,4,5,6,9,10,12
+Ionian aug #2	3	joniskā palielinātā #2	0,3,4,5,8,9,11,12
+Locrian bb3 bb7	4	lokriskā bb3 bb7	0,1,2,5,6,8,9,12
+Double harmonic	5	divkārši harmoniskā	0,1,4,5,7,8,11,12
+Lydian #6 #2	6	līdiskā #6 #2	0,3,4,6,7,10,11,12
+ALT #5 bb7	7	alterētā b5 bb7	0,1,3,4,7,8,9,12
+Hungarian Major	1	2xpl mažors, ungāru mažors	0,3,4,6,7,9,10,12
+ALT bb6 bb7	2	alterētā bb6 bb7	0,1,3,4,6,7,9,12
+Locrian #2 #7	3	lokriskā #2 #7	0,2,3,5,6,8,11,12
+ALT #6	4	alterētā #6	0,1,3,4,6,9,10,12
+Melodic aug	5	melodiskā palielinātā	0,2,3,5,8,9,11,12
+Dorian b2 #4	6	doriskā b2 #4	0,1,3,6,7,9,10,12
+Lydian aug #3	7	līdiskā palielinātā #3	0,2,5,6,8,9,11,13
+Neapolitan Minor	1	neapoliešu minors	0,1,3,5,7,8,11,12
+Lydian #6 	2	līdiskā #6 	0,2,4,6,7,10,11,12
+Dominant aug	3	palielinātā dominante	0,2,4,5,8,9,10,12
+Hungar Gypsy	4	ungāru čigānu	0,2,3,6,7,8,10,12
+Locrian #3	5	lokriskā #3	0,1,4,5,6,8,10,12
+Ionian #2	6	lokriskā #2	0,3,4,5,7,9,11,12
+ALT bb3 bb7	7	alterētā bb3 bb7	0,1,2,4,6,8,9,12
+Neapolitan Major	1	neapoliešu mažors	0,1,3,5,7,9,11,12
+Lydian aug #6	2	līdiskā palielinātā #6	0,2,4,6,8,10,11,12
+Lydian Dominant aug	3	līdiskā palielinātā dominante	0,2,4,6,8,9,10,12
+Lydian minor	4	līdiskā minora	0,2,4,6,7,8,10,12
+Major locrian	5	mažora lokriskā	0,2,4,5,6,8,10,12
+ALT #2	6	alterētā #2	0,2,3,4,6,8,10,12
+ALT #3	7	alterētā #3	0,1,2,4,6,8,10,12
+Enigmatic Minor	1	enigmātiskais minors	0,1,3,6,7,10,11,12
+Enigmatic minor MODE 2	2	enigmātiskā minora 2. MODS	0,2,5,6,9,10,11,12
+Enigmatic minor MODE 3	3	enigmātiskā minora 3. MODS	0,3,4,7,8,9,10,12
+Enigmatic minor MODE 4	4	enigmātiskā minora 4. MODS	0,1,4,5,6,7,9,12
+Enigmatic minor MODE 5	5	enigmātiskā minora 5. MODS	0,3,4,5,6,8,11,12
+ Enigmatic minor MODE 6	6	enigmātiskā minora 6. MODS	0,1,2,3,5,8,9,12
+Enigmatic minor MODE 7	7	enigmātiskā minora 7. MODS	0,1,2,4,7,8,11,12
+Enigmatic  	1	enigmātiskā	0,1,4,6,8,10,11,12
+Enigmatic  MODE 2	2	enigmātiskās 2. MODS	0,3,5,7,9,10,11,12
+Enigmatic  MODE 3	3	enigmātiskās 3. MODS	0,2,4,6,7,8,9,12
+Enigmatic  MODE 4	4	enigmātiskās 4. MODS	0,2,4,5,6,7,10,12
+Enigmatic  MODE 5	5	enigmātiskās 5. MODS	0,2,3,4,5,8,10,12
+ Enigmatic  MODE 6	6	enigmātiskās 6. MODS	0,1,2,3,6,8,10,12
+Enigmatic  MODE 7	7	enigmātiskās 7. MODS	0,1,2,5,7,9,11,12
+Composite 	1	kompozītā	0,1,4,6,7,8,11,12
+Composite MODE 2	2	kompozītās 2.MODS 	0,3,5,6,7,10,11,12
+Composite MODE 3	3	kompozītās 3.MODS 	0,2,3,4,7,8,9,12
+Composite MODE 4	4	kompozītās 4.MODS 	0,1,2,5,6,7,10,12
+Composite MODE 5	5	kompozītās 5.MODS 	0,1,4,5,6,9,11,12
+Composite MODE 6	6	kompozītās 6.MODS 	0,3,4,5,8,10,11,12
+Composite MODE 7	7	kompozītās 7.MODS 	0,1,2,5,7,8,9,12
+Ionian b5	1	joniskā b5	0,2,4,5,6,9,11,12
+Dorian b4	2	doriskā b4	0,2,3,4,7,9,10,12
+Phrygian bb3	3	frīģiskā bb3	0,1,2,5,7,8,10,12
+Lydian b2	4	līdiskā b2	0,1,4,6,7,9,11,12
+Super Lydian aug	5	superlīdiskā palielinātā	0,3,5,6,8,10,11,12
+Aeolian bb7	6	eoliskā bb7	0,2,3,5,7,8,9,12
+Locrian bb6	7	lokriskā bb6	0,1,3,5,6,7,10,12
+Locrian #7	1	lokriskā #7	0,1,3,5,6,8,11,12
+Ionian #6	2	joniskā #6	0,2,4,5,7,10,11,12
+Dorian aug	3	doriskā palielinātā	0,2,3,5,8,9,10,12
+Phrygian #4	4	frīģiskā #4	0,1,3,6,7,8,10,12
+Lydian #3	5	līdiskā #3	0,2,5,6,7,9,11,12
+Dominant #2	6	dominante #2	0,3,4,5,7,9,10,12
+ALT ALT	7	divkārši alterētā	0,1,2,4,6,7,9,12
+Persian	1	persiešu	0,1,4,5,6,8,11,12
+Persian MODE 2	2	persiešu 2. MODS	0,3,4,5,7,10,11,12
+Persian MODE 3	3	persiešu 3. MODS	0,1,2,4,7,8,9,12
+Persian MODE 4	4	persiešu 4. MODS	0,1,3,6,7,8,11,12
+Persian MODE 5	5	persiešu 5. MODS	0,2,5,6,7,10,11,12
+Persian MODE 6	6	persiešu 6. MODS	0,3,4,5,8,9,10,12
+Persian MODE 7	7	persiešu 7. MODS	0,1,2,5,6,7,9,12
+Minor Pentatonic	1	minora pentatonika	0,3,5,7,10,12
+Major Pentatonic	2	mažora pentatonika	0,2,4,7,9,12
+Minor Pent MODE 3	3	minora pentatonikas 3. MODS	0,2,5,7,10,12
+Minor Pent MODE 4	4	minora pentatonikas 4. MODS	0,3,5,8,10,12
+Minor Pent MODE 5	5	minora pentatonikas 5. MODS	0,2,5,7,9,12
+Kumoi	1	kumoi	0,2,3,7,9,12
+Hira-Joshi	1	hirajoši	0,2,3,7,8,12
+Iwato	1	ivato	0,1,5,6,10,12
+Naka Zora	1	nakazora	0,1,5,7,8,12
+Indian Lalit	1	indiešu lalita	0,2,5,6,7,9,12
+Indian Lalit MODE 2	2	indiešu lalita 2. MODS	0,3,4,5,7,10,12
+Indian Lalit MODE 3	3	indiešu lalita 3. MODS	0,1,2,4,7,9,12
+Indian Lalit MODE 4	4	indiešu lalita 4. MODS	0,1,3,6,8,11,12
+Indian Lalit MODE 5	5	indiešu lalita 5. MODS	0,2,5,7,10,11,12
+Indian Lalit MODE 6	6	indiešu lalita 6. MODS	0,3,5,8,9,10,12
+Indian  	1	indiešu	0,1,4,5,8,11,12
+Indian MODE 2	2	indiešu 2. MODS	0,3,4,7,10,11,12
+Indian MODE 3	3	indiešu 3. MODS	0,1,4,7,8,9,12
+Indian MODE 4	4	indiešu 4. MODS	0,3,6,7,8,11,12
+Indian MODE 5	5	indiešu 5. MODS	0,3,4,5,8,9,12
+Indian MODE 6	6	indiešu 6. MODS	0,1,2,5,6,9,12
+Hebrew Scale	1	senebreju	0,1,4,5,7,8,10,12
+Iraq Arabian Scale	1	irākas arābu	0,1,3,5,6,8,10,11,13
+Dichotomous Progression Scale	1	dihotomā progresijskaņkārta	0,3,8,11,12,13
+Dichotomous Progression Scale MODE 2	2	dihotomās progresijskaņkārtas 2.MODS	0,5,8,9,12,14
+Dichotomous Progression Scale MODE 3	3	dihotomās progresijskaņkārtas 3.MODS	0,3,4,7,12,13
+Dichotomous Progression Scale MODE 4	4	dihotomās progresijskaņkārtas 4.MODS	0,1,4,9,12,14
+Disjunt Egyptian Polytetrachords	1	ēģiptiešu dalāmie politetrahordi	0,2,3,6,8,9,12,14
+Disjunt Egyptian Polytetrachords MODE 2	2	ēģiptiešu dalāmie politetrahordi 2. MODS	0,1,4,6,7,10,12,14
+Disjunt Egyptian Polytetrachords MODE 3	3	ēģiptiešu dalāmie politetrahordi 3. MODS	0,3,5,6,9,11,13,14
+Disjunt Egyptian Polytetrachords MODE 4	4	ēģiptiešu dalāmie politetrahordi 4. MODS	0,2,3,6,8,10,11,14
+Disjunt Egyptian Polytetrachords MODE 5	5	ēģiptiešu dalāmie politetrahordi 5. MODS	0,1,4,6,8,9,12,14
+Disjunt Egyptian Polytetrachords MODE 6	6	ēģiptiešu dalāmie politetrahordi 6. MODS	0,3,5,7,8,11,13,14
+Whole-Tone	1	veseltoņu	0,2,4,6,8,10,12,14
+Augmented	1	palielinātā	0,3,4,7,8,10,12,14
+Augmented MODE 2	6	palielinātās 2. MODS	0,1,4,5,7,9,12,13
+Pelog	1	peloga	0,1,3,4,7,8,12,13
+Pelog MODE 2	2	peloga 2. MODS	0,2,3,6,7,11,12,13
+Pelog MODE 3	3	peloga 3. MODS	0,1,4,5,9,10,12,14
+Pelog MODE 4	4	peloga 4. MODS	0,3,4,8,9,11,12,13
+Pelog MODE 5	5	peloga 5. MODS	0,1,5,6,8,9,12,14
+Dominant sus	1	dominante sus	0,2,5,6,8,9,11,12,14
+Dominant sus MODE 2	2	dominante sus 2. MODS	0,3,4,6,7,9,10,12,14
+Dominant sus MODE 3	3	dominante sus 3. MODS	0,1,3,4,6,7,9,12,13
+Dominant sus MODE 4	4	dominante sus 4. MODS	0,2,3,5,6,8,11,12,13
+Dominant sus MODE 5	5	dominante sus 5. MODS	0,1,3,4,6,9,10,12,13
+Dominant sus MODE 6	6	dominante sus 6. MODS	0,2,3,5,8,9,11,12,14
+Dimin:Whole-Half	1	toņu-pustoņu pamazinātā	0,2,3,5,6,8,9,11,13
+Dimin:Halfe-Whole	1	pustoņu-toņu pamazinātā	0,1,3,4,6,7,9,10,11
+8-Tone-Spanish	1	astoņtoņu spāņu	0,1,3,4,5,6,8,10,12
+Bebop Locrian #2	1	bībopa lokriskā #2	0,2,3,5,6,8,10,11,12,13,14
+Bebop Locrian #2 MODE 2	2	bībopa lokriskā #2, 2.MODS	0,1,3,4,6,8,9,10
+Bebop Locrian #2 MODE 3	3	bībopa lokriskā #2, 3.MODS	0,2,3,5,7,8,9,11
+Bebop Locrian #2 MODE 4	4	bībopa lokriskā #2, 4.MODS	0,1,3,5,6,7,9,10
+Bebop Locrian #2 MODE 5	5	bībopa lokriskā #2, 5.MODS	0,2,4,5,6,8,9,11
+Bebop Locrian #2 MODE 6	6	bībopa lokriskā #2, 6.MODS	0,2,3,4,6,7,9,10
+Bebop Locrian #2 MODE 7	7	bībopa lokriskā #2, 7.MODS	0,1,2,4,5,7,8,10
+Bebop Locrian #2 MODE 8	8	bībopa lokriskā #2, 8.MODS	0,1,3,4,6,7,9,11
+Bebop Dominant	1	bībopa dominante	0,2,4,5,7,9,10,11
+Bebop minor	2	bībopa minors	0,2,3,5,7,8,9,10
+Bebop locrian add5	3	bībopa lokriskā ar pievienotu kvintu	0,1,3,5,6,7,8,10
+Bebop Dominant MODE 4	4	bībopa dominante 4.MODS	0,2,4,5,6,7,9,11
+Bebop Dominant MODE 5	5	bībopa dominante 5.MODS	0,2,3,4,5,7,9,10
+Bebop Dominant MODE 6	6	bībopa dominante 6.MODS	0,1,2,3,5,7,8,10
+Bebop Dominant MODE 7	7	bībopa dominante 7.MODS	0,1,2,4,6,7,9,11
+Bebop Dominant MODE 8	8	bībopa dominante 8.MODS	0,1,3,5,6,8,10,11
+Bebop Dorian	1	bībopa doriskā	0,2,3,5,7,9,10,11
+Bebop Dorian MODE 2	2	bībopa doriskā 2.MODS	0,1,3,5,7,8,9,10
+Bebop Dorian MODE 3	3	bībopa doriskā 3.MODS	0,2,4,6,7,8,9,11
+Bebop Dorian MODE 4	4	bībopa doriskā 4.MODS	0,2,4,5,6,7,9,10
+Bebop Dorian MODE 5	5	bībopa doriskā 5.MODS	0,2,3,4,5,7,8,10
+Bebop Dorian MODE 6	6	bībopa doriskā 6.MODS	0,1,2,3,5,6,8,10
+Bebop Dorian MODE 7	7	bībopa doriskā 7.MODS	0,1,2,4,5,7,9,11
+Bebop Dorian MODE 8	8	bībopa doriskā 8.MODS	0,1,3,4,6,8,10,11
+Bebop Major	1	bībopa mažors	0,2,4,5,7,8,9,11
+Bebop Major MODE 2	2	bībopa mažora 2. MODS	0,2,3,5,6,7,9,10
+Bebop Major MODE 3	3	bībopa mažora 3. MODS	0,1,3,4,5,7,8,10
+Bebop Major MODE 4	4	bībopa mažora 4. MODS	0,2,3,4,6,7,9,11
+Bebop Major MODE 5	5	bībopa mažora 5. MODS	0,1,2,4,5,7,9,10
+Bebop Major MODE 6	6	bībopa mažora 6. MODS	0,1,3,4,6,8,9,11
+Bebop Major MODE 7	7	bībopa mažora 7. MODS	0,2,3,5,7,8,10,11
+Bebop Major MODE 8	8	bībopa mažora 8. MODS	0,1,3,5,6,8,9,10
+Balinese	1	baliešu	0,1,3,7,8,12
+Chromatic Scale	1	hromatiskā	0,1,2,3,4,5,6,7
+Ten-Tone Hybrid Scale	1	desmittoņu hibrīdskaņkārta	0,2,3,4,5,6,8,9
+Thirdless Pattern1	1	beztercu struktūra 1	0,5,7
+Thirdless Pattern2	1	beztercu struktūra 2	0,5,6
+Thirdless Pattern3	1	beztercu struktūra 3	0,6,7
+Thirdless Pattern4	1	beztercu struktūra 4	0,2,7
+Thirdless Pattern5	1	beztercu struktūra 5	0,1,7
+Thirdless Pattern6	1	beztercu struktūra 6	0,1,6,7
+Harmonic minor	1	harmoniskais minors	0,2,3,5,7,8,11,12
+Locrian #6	2	lokriskā #6	0,1,3,5,6,9,10,12
+Ionian #5	3	joniskā #5	0,2,4,5,8,9,11,12
+Dorian #4	4	doriskā #4	0,2,3,6,7,9,10,12
+Phrygian #3	5	frīģiskā #3	0,1,4,5,7,8,10,11
+Lydian #2	6	līdiskā #2	0,3,4,6,7,9,10,11
+ALT bb7	7	alterētā bb7	0,1,3,4,6,7,8,11
+Bebop Locrian	1	bībopa lokriskā	0,2,3,5,6,8,10,11

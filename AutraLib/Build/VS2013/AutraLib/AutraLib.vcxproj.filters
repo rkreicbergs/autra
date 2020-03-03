@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Core\MidiWriter.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\Rnd.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\MidiEvent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\AutraLib.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\IntervalLevelData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\PitchLevelData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\PitchPhraseData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\RegisterData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\RhythmLevelData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\RhythmPhraseData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\ScaleData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\ScaleLevelData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Score.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\ChordData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\ChordLevelData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\RhythmPatternData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\Chord.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\IntervalBatch.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\Phrase.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\PitchPhrase.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\PitchSet.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\Register.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\RhythmPattern.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\RhythmPhrase.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Common\Scale.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\IntervalLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\MultichoiceLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\PitchLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\RhythmLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\ScaleLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\TriggerLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\AttentionLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Game\Levels\ChordLevel.cpp">
+      <Filter>Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Data\LevelTabData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{4271ccc2-4407-48bf-99a0-01eda9d1473b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{530d94f1-93e1-4414-8f98-1c598d3ecce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{26b20cfc-bdac-430c-b6fa-2782fa497f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common">
+      <UniqueIdentifier>{4e1417cc-cd12-469c-b4c2-52a2bfef1665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels">
+      <UniqueIdentifier>{471f799e-eaaf-4b94-a361-f15d9bbf9fb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Core\MidiWriter.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\Rnd.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\MidiEvent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\AutraLib.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Score.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\Chord.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\IntervalBatch.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\Phrase.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\PitchPhrase.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\PitchSet.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\Register.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\RhythmPattern.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\RhythmPhrase.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Common\Scale.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\ChordLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\IntervalLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\MultichoiceLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\PitchLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\RhythmLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\ScaleLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\TriggerLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Game\Levels\AttentionLevel.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\Check.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

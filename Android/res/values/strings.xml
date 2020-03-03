@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">Autra</string>
+
+    <!-- Activities -->
+    
+    <string name="act_select_game">Izvēlies treniņu veidu</string>
+    <string name="act_level" formatted="false">%s: %d. līmenis</string>
+    <string name="act_select_level">Izvēlies treniņa līmeni</string>
+    
+    <!-- Loader -->
+    <string name="lbl_loader_loading">Notiek ielāde…</string>
+
+    <!-- Game select -->
+    <string-array name="GameNames">
+        <item>Skaņaugstumi</item>
+        <item>Ritms</item>
+        <item>Intervāli</item>
+        <item>Skaņkārtas</item>
+        <item>Akordi</item>
+    </string-array>
+
+    <!-- Levels -->
+    <string name="btn_level_start">Sākt</string>
+    <string name="btn_level_end">Beigt</string>
+    <string name="btn_trigger_level_recognize">Ir!</string>
+                       
+    <!-- Results view -->
+    <string name="lbl_results_points">Punkti: </string>
+    <string name="lbl_results_highscore"> (Rekords!!)</string>
+    <string name="btn_results_close">Aizvērt</string>
+
+</resources>

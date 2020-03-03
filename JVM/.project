@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+    <name>AutraJVM</name>
+    <buildSpec>
+        <buildCommand>
+            <name>org.eclipse.jdt.core.javabuilder</name>
+        </buildCommand>
+    </buildSpec>
+    <natures>
+        <nature>org.eclipse.jdt.core.javanature</nature>
+    </natures>
+    <linkedResources>
+        <link>
+            <name>resources</name>
+            <type>2</type>
+            <location>PARENT-0-PROJECT_LOC/resources</location>
+        </link>
+        <link>
+            <name>CommonSrc</name>
+            <type>2</type>
+            <location>PARENT-1-PROJECT_LOC/src</location>
+        </link>
+        <link>
+            <name>ExternalDlls</name>
+            <type>2</type>
+            <location>PARENT-0-PROJECT_LOC/libs/x64</location>
+        </link>
+    </linkedResources>
+</projectDescription>

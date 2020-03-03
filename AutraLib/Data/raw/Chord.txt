@@ -1,0 +1,41 @@
+M53	mažora kvintakords	0,4,7
+M63	sekstakords	0,3,8
+M64	kvartsekstakords	0,5,9
+m53	minora kvintakords	0,3,7
+m63	sekstakords	0,4,9
+m64	kvartsekstakords	0,5,8
+pm5 (dim)	pamazinātais kvintakords	0,3,6
+pm63	sekstakords	0,3,9
+pm64	kvartsekstakords	0,6,9
+pl53 (+)	palielinātais kvintakords	0,4,8
+mM7 (7)	mazais mažora septakords	0,4,7,10
+mM65	mazais mažora kvintsekstakords	0,3,6,8
+mM43	mazais mažora terckvartakords	0,3,5,8
+mM2	mazais mažora sekundakords	0,2,5,8
+lM7(MA7)	lielais mažora septakords	0,4,7,11
+lM65 (mb6)	lielais mažora kvintsekstakords	0,3,7,9
+lM43	lielais mažora terckvartakords	0,4,5,9
+lM2	lielais mažora sekundakords	0,1,5,8
+mm7(m7)	mazais minora septakords	0,3,7,10
+mm65 (M6)	mazais minora kvintsekstakords	0,4,7,9
+mm43	mazais minora terckvartakords	0,3,5,8
+mm2	mazais minora sekundakords	0,2,5,9
+mM7(#5),7(#5)	palielinātais mazais mažora septakords	0,4,8,10
+VII7, m7(b5)	mazais ievadseptakords	0,3,6,10
+VII65	mazais ievadkvintsekstakords	0,3,7,9
+VII43	mazais ievadterckvartakords	0,4,6,9
+VII2	mazais ievadsekundakords	0,2,5,8
+pm7(o7)	pamazinātais septakords	0,3,6,9
+lm7(m7MA)	lielais minora septakords	0,3,7,11
+mMb9 (b9)	mazais mažora nonakords ar pazeminātu nonu	0,4,7,10,13
+mM9 (9)	mazais mažora nonakords	0,4,7,10,14
+mm9 (m9)	mazais minora nonakords	0,3,7,10,14
+mmb9 (mb9)	mazais minora nonakords ar pazeminātu nonu	0,3,7,10,13
+mM7ar 6 	mazais mažora septakords ar sekstu	0,4,9,10
+M53(p)	pilnais mažora kvintakords	0,4,7,12
+M63(p)	pilnais sekstakords	0,3,8,12
+M64(p)	pilnais kvartsekstakords	0,5,9,12
+m53(p)	pilnais minora kvintakords	0,3,7,12
+m63(p)	pilnais sekstakords	0,4,9,12
+m64(p)	pilnais kvartsekstakords	0,5,8,12
+pl53(p)	pilnais palielinātais kvintakords	0,4,8,12

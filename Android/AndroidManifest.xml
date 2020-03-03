@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="lv.autra.autra2"
+      android:versionCode="5"
+      android:versionName="0.5">
+    <uses-sdk android:minSdkVersion="15" />
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name=".activity.Loader" android:label="@string/app_name" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.GameSelect"   android:label="@string/act_select_game"/>
+        <activity android:name=".activity.LevelSelect"  />
+        <activity android:name=".activity.ChoiceLevel"  />
+        <activity android:name=".activity.TriggerLevel" />
+        <activity android:name=".activity.ResultScreen" />
+    </application>
+</manifest> 
